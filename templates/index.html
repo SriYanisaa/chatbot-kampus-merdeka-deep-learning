@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Chatbot Kampus Merdeka</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Chatbot Kampus Merdeka</h1>
+        <div class="chat-container" id="chat-container"></div>
+        <div class="input-container">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+
+    <script>
+        function sendMessage() {
+            var user_input = document.getElementById("user-input").value;
+
+            // Send user input to the server for prediction
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/x-www-form-urlencoded',
+                },
+                body: 'user_input=' + encodeURIComponent(user_input),
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Display user input and bot response in the chat container
+                document.getElementById("chat-container").innerHTML += '<div class="user-message">' + user_input + '</div>';
+                document.getElementById("chat-container").innerHTML += '<div class="bot-message">' + data.bot_response + '</div>';
+            });
+            
+            // Clear the input field
+            document.getElementById("user-input").value = '';
+        }
+    </script>
+</body>
+</html>
