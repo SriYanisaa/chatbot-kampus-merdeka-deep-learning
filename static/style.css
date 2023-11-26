@@ -15,7 +15,8 @@ body {
     padding: 10px;
     height: 300px;
     overflow-y: scroll;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 .input-container {
@@ -30,4 +31,52 @@ input {
 button {
     padding: 10px;
     cursor: pointer;
+}
+
+.message {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    max-width: 50%;  /* Setengah dari container */
+    word-wrap: break-word;
+    position: relative;
+}
+
+.user-message {
+    background-color: #37c23c;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.bot-message {
+    background-color: #003d52;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    margin-left: auto;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.icon {
+    position: absolute;
+    bottom: -10px;  /* Sesuaikan posisi ikon */
+}
+
+.user-icon {
+    left: -20px;  /* Sesuaikan posisi ikon user */
+}
+
+.bot-icon {
+    right: -20px;  /* Sesuaikan posisi ikon bot */
 }

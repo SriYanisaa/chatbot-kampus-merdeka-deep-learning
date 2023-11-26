@@ -3,22 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=1">
     <title>Chatbot Kampus Merdeka</title>
 </head>
 <body>
     <div class="container">
-        <h1>Chatbot Kampus Merdeka</h1>
-        <div class="chat-container" id="chat-container"></div>
-        <div class="input-container">
-            <input type="text" id="user-input" placeholder="Type your message...">
-            <button onclick="sendMessage()">Send</button>
+        <h1 class="mt-5">Chatbot Kampus Merdeka</h1>
+        <div class="chat-container mt-4" id="chat-container"></div>
+        <div class="input-container mt-3">
+            <input type="text" class="form-control" id="user-input" placeholder="Type your message...">
+            <button class="btn btn-primary" onclick="sendMessage()">
+                <i class="fa fa-paper-plane"></i> Send
+            </button>
         </div>
     </div>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
     <script>
         function sendMessage() {
             var user_input = document.getElementById("user-input").value;
+            var chatContainer = document.getElementById("chat-container");
+
+            // Menambahkan bubble user
+            var userBubble = document.createElement("div");
+            userBubble.className = "message user-message fit-content";
+            userBubble.innerHTML = "<strong>👨‍🦰 You:</strong> " + user_input;
+            chatContainer.appendChild(userBubble);
 
             // Send user input to the server for prediction
             fetch('/predict', {
@@ -30,14 +43,24 @@
             })
             .then(response => response.json())
             .then(data => {
-                // Display user input and bot response in the chat container
-                document.getElementById("chat-container").innerHTML += '<div class="user-message">' + user_input + '</div>';
-                document.getElementById("chat-container").innerHTML += '<div class="bot-message">' + data.bot_response + '</div>';
+                // Menambahkan bubble bot
+                var botBubble = document.createElement("div");
+                botBubble.className = "message bot-message fit-content";
+                botBubble.innerHTML = "<strong>🤖 Bot:</strong> " + data.bot_response;
+                chatContainer.appendChild(botBubble);
+                
+                // Scroll ke bagian bawah chatContainer
+                chatContainer.scrollTop = chatContainer.scrollHeight;
             });
             
             // Clear the input field
             document.getElementById("user-input").value = '';
         }
     </script>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
