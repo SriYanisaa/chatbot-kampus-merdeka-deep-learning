@@ -1,25 +1,44 @@
-{% extends 'index.html' %}
-{% block body %}
-<header>
-    <h1>About QnA Kampus Merdeka</h1>
-</header>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=1">
+    <title>About QnA Kampus Merdeka</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <header class="text-center">
+            <h1>About QnA Kampus Merdeka</h1>
+        </header>
 
-<div class="about-container">
-    <h2>How to Use the Chatbot</h2>
-    <ol>
-        <li>Ketik pesan Anda yang ingin ditanyakan terkait Kampus Merdeka di kotak input.</li>
-        <li>Klik tombol "Send" untuk mengirimkan pesan Anda.</li>
-        <li>Tunggu hingga bot memproses pesan Anda.</li>
-        <li>Lihat respons bot di area obrolan.</li>
-        <li>Lanjutkan percakapan dengan mengetik pesan baru.</li>
-    </ol>
+        <div class="about-container mt-4">
+            <h2>How to Use the Chatbot</h2>
+            <ol>
+                <li>Type your message related to Kampus Merdeka in the input box.</li>
+                <li>Click the "Send" button to submit your message.</li>
+                <li>Wait for the bot to process your message.</li>
+                <li>View the bot's response in the chat area.</li>
+                <li>Continue the conversation by typing a new message.</li>
+            </ol>
 
-    <h2>Tips for Interaction</h2>
+            <h2>Tips for Interaction</h2>
 
-    <ul>
-        <li>Ajukan pertanyaan yang berkaitan dengan topik Kampus Merdeka</li>
-        <li>Gunakan bahasa yang jelas dan ringkas untuk pemahaman yang lebih baik</li>
-        <li>Bersabarlah, karena bot mungkin memerlukan waktu untuk merespons</li>
-    </ul>
-</div>
-{% endblock %}
+            <ul>
+                <li>Ask questions related to the topic of Kampus Merdeka.</li>
+                <li>Use clear and concise language for better understanding.</li>
+                <li>Be patient, as the bot may take some time to respond.</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
