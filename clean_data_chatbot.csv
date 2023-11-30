@@ -14,63 +14,68 @@
 12,bro,greeting
 13,sis,greeting
 14,kawan,greeting
-15,dah,goodbye
-16,dadah,goodbye
-17,bye,goodbye
-18,byee,goodbye
-19,good bye,goodbye
-20,selamat tinggal,goodbye
-21,sampai jumpa,goodbye
-22,bai,goodbye
-23,see you,goodbye
-24,thanks,terimakasih
-25,thank you,terimakasih
-26,terima kasih,terimakasih
-27,makasih,terimakasih
-28,terima kasih banyak,terimakasih
-29,apa itu kampus merdeka,penjelasan_kampus_merdeka
-30,apa tujuan kampus merdeka,tujuan_kampus_merdeka
-31,apa persyaratan mengikuti kampus merdeka,persyaratan_kampus_merdeka
-32,apa saja program kampus merdeka,program_kampus_merdeka
-33,program kampus merdeka kemendikbud,program_kampus_merdeka
-34,program kampus merdeka kemensos,program_kampus_merdeka
-35,program kampus merdeka bumn,program_kampus_merdeka
-36,studi independen,program_kampus_merdeka
-37,magang,program_kampus_merdeka
-38,kampus mengajar,program_kampus_merdeka
-39,iisma,program_kampus_merdeka
-40,pertukaran mahasiswa merdeka,program_kampus_merdeka
-41,pejuang muda,program_kampus_merdeka
-42,pmmb,program_kampus_merdeka
-43,apa itu studi independen,penjelasan_studi_independen
-44,apa saja persyaratan studi independen,persyaratan_studi_independen
-45,bagaimana periode pelaksanaan dan cara mendaftar program studi independen,periode_dan_pendaftaran_studi_independen
-46,apa saja manfaat apabila mengikuti studi independen,manfaat_studi_independen
-47,apa saja mitra yang tergabung dalam studi independen,mitra_studi_independen
-48,apa itu magang bersertifikat,penjelasan_magang
-49,apa saja persyaratan magang bersertifikat,persyaratan_magang
-50,bagaimana periode pelaksanaan dan cara mendaftar program magang bersertifikat,periode_dan_pendaftaran_magang
-51,apa saja manfaat apabila mengikuti magang bersertifikat,manfaat_magang
-52,apa saja mitra yang tergabung dalam magang bersertifikat,mitra_magang
-53,apa itu kampus mengajar,penjelasan_kampus_mengajar
-54,apa saja persyaratan kampus mengajar,persyaratan_kampus_mengajar
-55,bagaimana periode pelaksanaan dan cara mendaftar program kampus mengajar,periode_dan_pendaftaran_kampus_mengajar
-56,apa saja manfaat apabila mengikuti kampus mengajar,manfaat_kampus_mengajar
-57,apa itu iisma,penjelasan_IISMA
-58,apa saja persyaratan iisma,persyaratan_IISMA
-59,bagaimana periode pelaksanaan dan cara mendaftar program iisma,periode_dan_pendaftaran_IISMA
-60,apa saja manfaat apabila mengikuti iisma,manfaat_IISMA
-61,apa saja universitas yang tergabung dalam program iisma,mitra_IISMA
-62,apa itu pertukaran mahasiswa merdeka,penjelasan_pertukaran_mahasiswa
-63,apa saja persyaratan pertukaran mahasiswa merdeka,persyaratan_pertukaran_mahasiswa
-64,bagaimana periode pelaksanaan dan cara mendaftar program pertukaran mahasiswa merdeka,periode_dan_pendaftaran_pertukaran_mahasiswa
-65,apa saja manfaat apabila mengikuti pertukaran mahasiswa merdeka,manfaat_pertukaran_mahasiswa
-66,apa itu pejuang muda,penjelasan_pejuang_muda
-67,apa saja persyaratan pejuang muda,persyaratan_pejuang_muda
-68,bagaimana periode pelaksanaan dan cara mendaftar program pejuang muda,periode_dan_pendaftaran_pejuang_muda
-69,apa saja manfaat apabila mengikuti pejuang muda,manfaat_pejuang_muda
-70,apa itu pmmb,penjelasan_PMMB
-71,apa saja persyaratan iisma,persyaratan_IISMA
-72,bagaimana periode pelaksanaan dan cara mendaftar program pmmb,periode_dan_pendaftaran_PMMB
-73,apa saja manfaat apabila mengikuti pmmb,manfaat_PMMB
-74,apa saja universitas yang tergabung dalam program pmmb,mitra_PMMB
+15,haii,greeting
+16,dah,goodbye
+17,dadah,goodbye
+18,bye,goodbye
+19,byee,goodbye
+20,good bye,goodbye
+21,selamat tinggal,goodbye
+22,sampai jumpa,goodbye
+23,bai,goodbye
+24,byebye,goodbye
+25,see you,goodbye
+26,thanks,terimakasih
+27,thx,terimakasih
+28,maaci,terimakasih
+29,makasi,terimakasih
+30,thank you,terimakasih
+31,terima kasih,terimakasih
+32,makasih,terimakasih
+33,terima kasih banyak,terimakasih
+34,apa itu kampus merdeka,penjelasan_kampus_merdeka
+35,apa tujuan kampus merdeka,tujuan_kampus_merdeka
+36,apa persyaratan mengikuti kampus merdeka,persyaratan_kampus_merdeka
+37,apa saja program kampus merdeka,program_kampus_merdeka
+38,program kampus merdeka kemendikbud,program_kampus_merdeka
+39,program kampus merdeka kemensos,program_kampus_merdeka
+40,program kampus merdeka bumn,program_kampus_merdeka
+41,studi independen,program_kampus_merdeka
+42,magang,program_kampus_merdeka
+43,kampus mengajar,program_kampus_merdeka
+44,iisma,program_kampus_merdeka
+45,pertukaran mahasiswa merdeka,program_kampus_merdeka
+46,pejuang muda,program_kampus_merdeka
+47,pmmb,program_kampus_merdeka
+48,apa itu studi independen,penjelasan_studi_independen
+49,apa saja persyaratan studi independen,persyaratan_studi_independen
+50,bagaimana periode pelaksanaan dan cara mendaftar program studi independen,periode_dan_pendaftaran_studi_independen
+51,apa saja manfaat apabila mengikuti studi independen,manfaat_studi_independen
+52,apa saja mitra yang tergabung dalam studi independen,mitra_studi_independen
+53,apa itu magang bersertifikat,penjelasan_magang
+54,apa saja persyaratan magang bersertifikat,persyaratan_magang
+55,bagaimana periode pelaksanaan dan cara mendaftar program magang bersertifikat,periode_dan_pendaftaran_magang
+56,apa saja manfaat apabila mengikuti magang bersertifikat,manfaat_magang
+57,apa saja mitra yang tergabung dalam magang bersertifikat,mitra_magang
+58,apa itu kampus mengajar,penjelasan_kampus_mengajar
+59,apa saja persyaratan kampus mengajar,persyaratan_kampus_mengajar
+60,bagaimana periode pelaksanaan dan cara mendaftar program kampus mengajar,periode_dan_pendaftaran_kampus_mengajar
+61,apa saja manfaat apabila mengikuti kampus mengajar,manfaat_kampus_mengajar
+62,apa itu iisma,penjelasan_IISMA
+63,apa saja persyaratan iisma,persyaratan_IISMA
+64,bagaimana periode pelaksanaan dan cara mendaftar program iisma,periode_dan_pendaftaran_IISMA
+65,apa saja manfaat apabila mengikuti iisma,manfaat_IISMA
+66,apa saja universitas yang tergabung dalam program iisma,mitra_IISMA
+67,apa itu pertukaran mahasiswa merdeka,penjelasan_pertukaran_mahasiswa
+68,apa saja persyaratan pertukaran mahasiswa merdeka,persyaratan_pertukaran_mahasiswa
+69,bagaimana periode pelaksanaan dan cara mendaftar program pertukaran mahasiswa merdeka,periode_dan_pendaftaran_pertukaran_mahasiswa
+70,apa saja manfaat apabila mengikuti pertukaran mahasiswa merdeka,manfaat_pertukaran_mahasiswa
+71,apa itu pejuang muda,penjelasan_pejuang_muda
+72,apa saja persyaratan pejuang muda,persyaratan_pejuang_muda
+73,bagaimana periode pelaksanaan dan cara mendaftar program pejuang muda,periode_dan_pendaftaran_pejuang_muda
+74,apa saja manfaat apabila mengikuti pejuang muda,manfaat_pejuang_muda
+75,apa itu pmmb,penjelasan_PMMB
+76,apa saja persyaratan iisma,persyaratan_IISMA
+77,bagaimana periode pelaksanaan dan cara mendaftar program pmmb,periode_dan_pendaftaran_PMMB
+78,apa saja manfaat apabila mengikuti pmmb,manfaat_PMMB
+79,apa saja universitas yang tergabung dalam program pmmb,mitra_PMMB
