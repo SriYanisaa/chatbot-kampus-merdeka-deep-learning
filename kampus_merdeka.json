@@ -17,12 +17,15 @@
         "malam",
         "bro",
         "sis",
-        "kawan"
+        "kawan",
+        "haii"
       ],
       "responses": [
         "Hai! Mau tau informasi tentang apa nih?",
+        "Hallo! Mau cari informasi kampus merdeka tentang apa nih?",
         "Halo! Mau tau tentang kampus merdeka, kan?",
-        "Hello!  Lagi kepo tentang kampus merdeka ya?"
+        "Hello!  Lagi kepo tentang kampus merdeka ya?",
+        "Hii! Bot Kampus Merdeka disini, ada yang bisa dibantu?"
       ]
     },
     {
@@ -36,6 +39,7 @@
         "Selamat tinggal",
         "Sampai jumpa",
         "Bai",
+        "Byebye",
         "See you"
       ],
       "responses": [
@@ -44,6 +48,7 @@
         "Good bye!",
         "Dahh, semoga harimu menyenangkan yaa!",
         "Sampai jumpa lagi!",
+        "See You! Semangat Kuliahnya!",
         "See u! Senang bisa membantu"
       ]
     },
@@ -51,6 +56,9 @@
       "tag": "terimakasih",
       "patterns": [
         "Thanks",
+        "Thx",
+        "Maaci",
+        "Makasi",
         "Thank you",
         "Terima kasih",
         "Makasih",
@@ -58,7 +66,10 @@
       ],
       "responses": [
         "Dengan senang hati :)",
-        "Sama-sama yaa"
+        "Sama-sama yaa",
+        "Terima kasih kembali",
+        "You're welcome :)",
+        "Sama-sama, senang bisa membantu :D"
       ]
     },
     {
