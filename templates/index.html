@@ -10,34 +10,58 @@
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">Chatbot</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                    <li class="nav-item" id="nav-chatbot">
+                        <a class="nav-link" href="#">Chatbot</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" id="nav-about">
                         <a class="nav-link" href="{{ url_for('about') }}">About</a>
                     </li>
                 </ul>
             </div>
         </nav>
 
-        <h1 class="mt-5">Chatbot Kampus Merdeka</h1>
-        <div class="chat-container mt-4" id="chat-container"></div>
-        <div class="input-container mt-3">
-            <input type="text" class="form-control" id="user-input" placeholder="Type your message...">
-            <button class="btn btn-primary" onclick="sendMessage()">
-                <i class="fa fa-paper-plane"></i> Send
-            </button>
+        <div id="content-container">
+            <h1 class="mt-5">Chatbot Kampus Merdeka</h1>
+            <div class="chat-container mt-4" id="chat-container"></div>
+            <div class="input-container mt-3">
+                <input type="text" class="form-control" id="user-input" placeholder="Type your message...">
+                <button class="btn btn-primary" onclick="sendMessage()">
+                    <i class="fa fa-paper-plane"></i> Send
+                </button>
+            </div>
         </div>
     </div>
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+    <script>
+        $(document).ready(function() {
+            $("#nav-chatbot").click(function() {
+                loadContent("index.html");
+            });
+
+            $("#nav-about").click(function() {
+                loadContent("about.html");
+            });
+    
+            // Fungsi untuk memuat konten halaman
+            function loadContent(page) {
+                $.ajax({
+                    url: page,
+                    type: "GET",
+                    success: function(data) {
+                        $("#content-container").html($(data).find("#content-container").html());
+                    },
+                    error: function(xhr, status, error) {
+                        console.error("Error loading content:", error);
+                    }
+                });
+            }
+        });
+    </script>
 
     <script>
         function sendMessage() {
