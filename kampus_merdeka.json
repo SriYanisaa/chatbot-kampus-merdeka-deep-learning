@@ -182,15 +182,17 @@
     {
       "tag": "studi_independen",
       "patterns": [
-	"Mahasiswa dari jurusan dan jenjang apa saya yang dapat mengikuti program Studi Independen Berserikat Kampus Merdeka?",
-	"Apakah pilihan studi harus sesuai dengan bidang/jurusan saya?",
-	"Pilihan studi harus sesuai dengan jurusan di kampus?",
-	"Selama pelaksanaan program Studi Independen Bersertifikat Kampus Merdeka apakah saya masih dapat mengikuti kegiatan perkuliahan di kampus?"
+        "Mahasiswa dari jurusan dan jenjang apa saya yang dapat mengikuti program Studi Independen Bersertifikat Kampus Merdeka?",
+        "Apakah pilihan studi harus sesuai dengan bidang/jurusan saya?",
+        "Pilihan studi harus sesuai dengan jurusan di kampus?",
+        "Selama pelaksanaan program Studi Independen Bersertifikat Kampus Merdeka apakah saya masih dapat mengikuti kegiatan perkuliahan di kampus?",
+        "Apakah Studi Independen Bersertifikat Kampus Merdeka mendapatkan uang saku?"
       ],
       "responses": [
-	"Mahasiswa dari semua jurusan pada jenjang D3, D4, dan S1 dapat mengikuti program Studi Independen Bersertifikat dengan persetujuan dari Perguruan Tinggi masing-masing",
-	"Tidak. Kegiatan Studi Independen Bersertifikat dapat dilakukan dalam bentuk kerja kelompok lintas disiplin keilmuan, selama memenuhi persyaratan dari program yang ditawarkan",
-	"Mahasiswa diharapkan untuk fokus dan berkomitmen dalam mengikuti seluruh rangkaian program, oleh sebab itu program dapat dikonversikan hingga sebesar 20 sks"
+        "Mahasiswa dari semua jurusan pada jenjang D3, D4, dan S1 dapat mengikuti program Studi Independen Bersertifikat dengan persetujuan dari Perguruan Tinggi masing-masing",
+        "Tidak. Kegiatan Studi Independen Bersertifikat dapat dilakukan dalam bentuk kerja kelompok lintas disiplin keilmuan, selama memenuhi persyaratan dari program yang ditawarkan",
+        "Mahasiswa diharapkan untuk fokus dan berkomitmen dalam mengikuti seluruh rangkaian program, oleh sebab itu program dapat dikonversikan hingga sebesar 20 sks",
+        "Program Studi Independen Bersertifikat tidak memberikan uang saku kepada mahasiswa yang berpartisipasi. Tapi program SIB ini tidak mengeluarkan biaya sebesar program Magang Bersertifikat."
       ]
     },
     {
@@ -259,22 +261,24 @@
     {
       "tag": "magang",
       "patterns": [
-	"Mahasiswa dari jurusan dan jenjang apa saya yang dapat mengikuti program Magang Berserikat Kampus Merdeka?",
-	"Apakah mahasiswa yang mengikuti program Magang Bersertifikat Kampus Merdeka akan menerima gaji/tunjangan?",
-	"Bagaimana proses seleksi magang Kampus Merdeka dilakukan?",
-	"Apakah pilihan perusahaan dan posisi magang harus sesuai dengan bidang/jurusan saya?",
-	"Bagaimana proses penilaian kinerja magang saya mempengaruhi penilaian akhir saya di kampus?",
-	"Berapa banyak lowongan magang yang dapat saya daftarkan?",
-	"Apakah saya dapat mendaftar lowongan magang di luar platform Magang Bersertifikat Kampus Merdeka?",
-	"Apakah bisa mendaftar lowongan magang di luar website Kampus Merdeka?"
+        "Mahasiswa dari jurusan dan jenjang apa saya yang dapat mengikuti program Magang Berserikat Kampus Merdeka?",
+        "Apakah mahasiswa yang mengikuti program Magang Bersertifikat Kampus Merdeka akan menerima gaji/tunjangan?",
+        "Bagaimana proses seleksi magang Kampus Merdeka dilakukan?",
+        "Apakah pilihan perusahaan dan posisi magang harus sesuai dengan bidang/jurusan saya?",
+        "Bagaimana proses penilaian kinerja magang saya mempengaruhi penilaian akhir saya di kampus?",
+        "Berapa banyak lowongan magang yang dapat saya daftarkan?",
+        "Apakah saya dapat mendaftar lowongan magang di luar platform Magang Bersertifikat Kampus Merdeka?",
+        "Apakah magang mendapatkan uang saku?",
+        "Apakah bisa mendaftar lowongan magang di luar website Kampus Merdeka?"
       ],
       "responses": [
-	"Mahasiswa dari semua jurusan pada jenjang S1 dapat mengikuti program Magang Bersertifikat dengan persetujuan dari Perguruan Tinggi masing-masing",
-	"Mahasiswa akan mendapatkan uang saku dari Kementerian/Mitra",
+        "Mahasiswa dari semua jurusan pada jenjang S1 dapat mengikuti program Magang Bersertifikat dengan persetujuan dari Perguruan Tinggi masing-masing",
+        "Mahasiswa akan mendapatkan uang saku dari Kementerian/Mitra",
         "Mahasiswa akan diseleksi secara Administratif dan Akademik oleh mitra magang",
         "Mahasiswa bebas mendaftar pada lowongan magang yang diminati dengan sesuai dengan arah capaian yang diinginkan",
         "Penilaian dalam pelaksanaan kebijakan Merdeka Belajar-Kampus Merdeka dilakukan selama kegiatan berlangsung (penilaian proses) dan akhir kegiatan berupa laporan kegiatan belajar (penilaian hasil). Penilaian dalam proses dilakukan dengan cara observasi (kepribadian dan sosial) sebagai teknik utama. Sedangkan penilaian hasil dilaksanakan pada akhir pelaksanaan program dengan menggunakan laporan yang dibuat dan dipresentasikan oleh mahasiswwa. Penilaian dilakukan oleh pendamping dari Pihak Ketiga (mitra magang) dan dosen pendamping di Perguruan Tinggi",
         "Saat ini kami tidak membatasi jumlah lowongan yang dapat didaftarkan oleh mahasiswa dan akan berbeda di setiap semester",
+        "Ya tentu saja, Mahasiswa yang mengikuti MSIB akan mendapat uang saku mulai dari Rp2,8 juta per bulan selama satu semester.",
         "Program Magang Bersertifikat hanya berlaku untuk kegiatan magang di ruang lingkup mitra kerja sama Kampus Merdeka"
       ]
     },
