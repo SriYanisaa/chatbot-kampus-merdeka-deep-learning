@@ -24,7 +24,8 @@
                 "Hallo! Mau cari informasi kampus merdeka tentang apa nih?",
                 "Halo! Mau tau tentang kampus merdeka, kan?",
                 "Hello!  Lagi kepo tentang kampus merdeka ya?",
-                "Hii! Bot Kampus Merdeka disini, ada yang bisa dibantu?"
+                "Hii! Bot Kampus Merdeka disini, ada yang bisa dibantu?",
+                "Hai ! Mau tau tentang apa tentang kampus merdeka?"
             ]
         },
         {
@@ -90,6 +91,15 @@
             ],
             "responses": [
                 "Tujuan kebijakan Kampus Merdeka adalah memberikan kesempatan kepada mahasiswa untuk memilih mata kuliah yang akan mereka tempuh berdasarkan keinginan sendiri serta mendorong mahasiswa meningkatkan soft skills serta hard skills agar siap bersaing dalam dunia global."
+            ]
+        },
+        {
+            "tag": "manfaat_kampus_merdeka",
+            "patterns": [
+                "Apa saja manfaat mengikuti Kampus Merdeka"
+            ],
+            "responses": [
+                "Kegiatan dapat dikonversi menjadi sks, Perluas jaringan hingga ke luar program studi dan universitas, Eksplorasi pengetahuan dan kemampuan di lapangan selama lebih dari satu semester, Menimba ilmu secara langsung dari mitra berkualitas dan terkemuka"
             ]
         },
         {
@@ -166,8 +176,7 @@
         {
             "tag": "manfaat_studi_independen",
             "patterns": [
-                "Apa saja manfaat apabila mengikuti Studi Independen?",
-                "Apa saja manfaat mengikuti Kampus Merdeka"
+                "Apa saja manfaat apabila mengikuti Studi Independen?"
 
             ],
             "responses": [
@@ -229,8 +238,7 @@
         {
             "tag": "manfaat_magang",
             "patterns": [
-                "Apa saja manfaat apabila mengikuti Magang Bersertifikat?",
-                "Apa saja manfaat mengikuti Kampus Merdeka"
+                "Apa saja manfaat apabila mengikuti Magang Bersertifikat?"
             ],
             "responses": [
                 "Manfaat yang didapatkan, yaitu konversi hingga 20 sks, dibimbing mentor staf profesional secara full-time, sertifikasi sesuai kinerja, dan uang saku serta biaya hidup selama magang"
@@ -299,8 +307,7 @@
         {
             "tag": "manfaat_kampus_mengajar",
             "patterns": [
-                "Apa saja manfaat apabila mengikuti Kampus Mengajar?",
-                "Apa saja manfaat mengikuti Kampus Merdeka"
+                "Apa saja manfaat apabila mengikuti Kampus Mengajar?"
             ],
             "responses": [
                 "Manfaat yang didapatkan, yaitu mendapatkan bantuan biaya hidup serta UKT (bagi yang tidak sedang menerima bantuan pemerintah lainnya), mengasah kepemimpinan, kreativitas, pemecahan masalah, inovasi, serta terlibat langsung dalam pembelajaran di jenjang SD dan SMP"
@@ -336,8 +343,7 @@
         {
             "tag": "manfaat_IISMA",
             "patterns": [
-                "Apa saja manfaat apabila mengikuti IISMA?",
-                "Apa saja manfaat mengikuti Kampus Merdeka"
+                "Apa saja manfaat apabila mengikuti IISMA?"
             ],
             "responses": [
                 "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya pendaftaran, pendidikan, serta biaya hidup selama 1 semester, test PCR, karantina, visa, transport, dan asuransi kesehatan"
@@ -382,8 +388,7 @@
         {
             "tag": "manfaat_pertukaran_mahasiswa",
             "patterns": [
-                "Apa saja manfaat apabila mengikuti Pertukaran Mahasiswa Merdeka?",
-                "Apa saja manfaat mengikuti Kampus Merdeka"
+                "Apa saja manfaat apabila mengikuti Pertukaran Mahasiswa Merdeka?"
             ],
             "responses": [
                 "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, bantuan biaya hidup dan UKT, transport pulang-pergi ke kampus tujuan, dan biaya rapid pulang-pergi"
@@ -419,8 +424,7 @@
         {
             "tag": "manfaat_pejuang_muda",
             "patterns": [
-                "Apa saja manfaat apabila mengikuti Pejuang Muda?",
-                "Apa saja manfaat mengikuti Kampus Merdeka"
+                "Apa saja manfaat apabila mengikuti Pejuang Muda?"
             ],
             "responses": [
                 "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, pendampingan langsung dengan Kemensos, mentoring eksklusif, atribut, uang saku, biaya transport, dan anggaran hibah"
@@ -456,8 +460,7 @@
         {
             "tag": "manfaat_PMMB",
             "patterns": [
-                "Apa saja manfaat apabila mengikuti PMMB?",
-                "Apa saja manfaat mengikuti Kampus Merdeka"
+                "Apa saja manfaat apabila mengikuti PMMB?"
             ],
             "responses": [
                 "Manfaat yang didapatkan, yaitu konversi SKS hingga 20 sks, networking, mendapatkan sertifikat industri, mengenal dunia kerja, serta uang saku"
