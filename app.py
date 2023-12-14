@@ -64,7 +64,7 @@ model = Model(i, x)
 model.compile(loss="sparse_categorical_crossentropy", optimizer='adam', metrics=['accuracy'])
 
 # Load pre-trained model weights
-model.load_weights('D:/model_chatbot_kampus_merdeka.h5')
+model.load_weights('model_chatbot_kampus_merdeka.h5')
 
 def predict_chatbot(user_input):
     prediction_input = preprocess_input(user_input)

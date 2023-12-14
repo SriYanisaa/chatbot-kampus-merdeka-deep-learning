@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=3">
     <title>Chatbot Kampus Merdeka</title>
 </head>
+
 <body>
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -39,30 +42,12 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.js"></script>
 
     <script>
-        // Fungsi untuk menampilkan pop-up
-        function showPopup() {
-            console.log("showPopup function is running...");
-
-            // Cek apakah cookie sudah ada
-            if (document.cookie.indexOf("popupShown=true") == -1) {
-                // Jika cookie tidak ada, tampilkan pop-up
-                var popupMessage = "Selamat datang! Ini adalah aplikasi Chatbot Kampus Merdeka. Ini adalah batasan chatbot: ...";
-
-                // Tampilkan pop-up menggunakan sweetalert atau library serupa
-                swal("Welcome!", popupMessage, "info");
-
-                // Set cookie agar pop-up tidak ditampilkan lagi
-                document.cookie = "popupShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
-            }
-        }
-
-        console.log("Script is loaded...");
-
-        // Panggil fungsi showPopup saat halaman dimuat
-        window.onload = function () {
-            console.log("Window onload event is triggered...");
-            showPopup();
-        };
+        Swal.fire({
+            title: 'Selamat datang!',
+            text: 'Ini adalah aplikasi Chatbot Kampus Merdeka. Chatbot ini hanya dapat menjawab pertanyaan yang terkait dengan Kampus Merdeka.',
+            icon: 'info',
+            confirmButtonText: 'Oke'
+        });
     </script>
 
     <script>
@@ -74,7 +59,7 @@
             $("#nav-about").click(function() {
                 loadContent("about.html");
             });
-    
+
             // Fungsi untuk memuat konten halaman
             function loadContent(page) {
                 $.ajax({
@@ -104,24 +89,24 @@
 
             // Send user input to the server for prediction
             fetch('/predict', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/x-www-form-urlencoded',
-                },
-                body: 'user_input=' + encodeURIComponent(user_input),
-            })
-            .then(response => response.json())
-            .then(data => {
-                // Menambahkan bubble bot
-                var botBubble = document.createElement("div");
-                botBubble.className = "message bot-message fit-content";
-                botBubble.innerHTML = "<strong>🤖 Bot:</strong> " + data.bot_response;
-                chatContainer.appendChild(botBubble);
-                
-                // Scroll ke bagian bawah chatContainer
-                chatContainer.scrollTop = chatContainer.scrollHeight;
-            });
-            
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded',
+                    },
+                    body: 'user_input=' + encodeURIComponent(user_input),
+                })
+                .then(response => response.json())
+                .then(data => {
+                    // Menambahkan bubble bot
+                    var botBubble = document.createElement("div");
+                    botBubble.className = "message bot-message fit-content";
+                    botBubble.innerHTML = "<strong>🤖 Bot:</strong> " + data.bot_response;
+                    chatContainer.appendChild(botBubble);
+
+                    // Scroll ke bagian bawah chatContainer
+                    chatContainer.scrollTop = chatContainer.scrollHeight;
+                });
+
             // Clear the input field
             document.getElementById("user-input").value = '';
         }
@@ -132,4 +117,5 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
 </html>
