@@ -26,7 +26,7 @@
                 "Hello!  Lagi kepo tentang kampus merdeka ya?",
                 "Hii! Bot Kampus Merdeka disini, ada yang bisa dibantu?",
                 "Hai ! Mau tau tentang apa tentang kampus merdeka?",
-                "Halo ! Mau tau program apa yang ada pada kampus merdeka?"
+                "Halo ! Ada beberapa program Kampus Merdeka yang harus kamu ketahui terlebih dahulu"
             ]
         },
         {
@@ -115,7 +115,8 @@
         {
             "tag": "program_kampus_merdeka",
             "patterns": [
-                "Apa saja program Kampus Merdeka?"
+                "Apa saja program Kampus Merdeka?",
+                "Program apa saja yang ada pada Kampus Merdeka?"
             ],
             "responses": [
                 "Terdapat program Kampus Merdeka dari Kemendikbud, Kemensos, serta BUMN"
@@ -128,7 +129,11 @@
                 "Program Kampus Merdeka Kemensos",
                 "Program Kampus Merdeka BUMN",
                 "Apa saja program yang ada",
-                "Apa saja itu programnya"
+                "Apa saja itu programnya",
+                "Sebutkan program dari Kampus Merdeka Kemendikbud",
+                "Sebutkan program dari Kampus Merdeka Kemensos",
+                "Sebutkan program dari Kampus Merdeka BUMN",
+                "Apa saja program yang ada pada Kampus Merdeka?"
 
             ],
             "responses": [
