@@ -126,7 +126,9 @@
             "patterns": [
                 "Program Kampus Merdeka Kemendikbud",
                 "Program Kampus Merdeka Kemensos",
-                "Program Kampus Merdeka BUMN"
+                "Program Kampus Merdeka BUMN",
+                "Apa saja program yang ada",
+                "Apa saja itu programnya"
 
             ],
             "responses": [
@@ -145,8 +147,14 @@
                 "PMMB"
             ],
             "responses": [
-                "Mau tau tentang apa nih?",
-                "Program mana yang kamu ingin ketahui?"
+                "Program mana yang kamu ingin ketahui?",
+                "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk mewujudkan gagasan mahasiswa dalam mengembangkan diri melalui aktivitas di luar perkuliahan dan menambah kompetensi spesifik serta praktis yang akan digunakan dalam dunia industri",
+                "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk memberikan kesempatan kepada mahasiswa mendapatkan pengalaman kerja di industri/dunia profesi nyata untuk mendapatkan hard skills maupun soft skills.",
+                "Salah satu program Kampus Merdeka Kemendikbud berbentuk kegiatan pembelajaran oleh mahasiswa yang memiliki minat dalam memperdalam ilmunya serta membantu meningkatkan pemerataan kualitas pendidikan. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil",
+                "IISMA adalah singkatan dari Indonesian International Student Mobility Awards. Salah satu program Kampus Merdeka Kemendikbud berupa skema beasiswa dari Pemerintah Indonesia untuk mendanai siswa dalam program mobilitas ke universitas terkemuka di luar negeri",
+                "Pertukaran Mahasiswa Merdeka merupakan pertukaran pelajar dengan program studi yang sama ke Perguruan Tinggi berbeda maupun pertukaran pelajar dengan program studi berbeda ke Perguruan Tinggi berbeda. Kegiatan pembelajaran dapat secara tatap muka atau daring. Program ini bertujuan untuk memperkaya pengalaman dan konteks keilmuan mahasiswa",
+                "Pejuang Muda adalah laboratorium sosial mahasiswa yang berkolaborasi dengan Kementerian Sosial untuk merancang digital campaign dan mengeksekusi program sosial yang relevan untuk membuat perubahan nyata di masyarakat ",
+                "PMMB adalah singkatan dari Program Magang Mahasiswa Bersertifikat. PMMB adalah program dari FHCI yang bekerja sama dengan BUMN yang memberi kesempatan kepada mahasiswa untuk menyalurkan potensi dan menggali pengalaman di BUMN"
             ]
         },
         {
