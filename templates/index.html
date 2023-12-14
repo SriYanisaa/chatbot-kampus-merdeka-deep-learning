@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=1">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}?v=2">
     <title>Chatbot Kampus Merdeka</title>
 </head>
 <body>
@@ -34,42 +34,35 @@
         </div>
     </div>
 
-    <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="welcomeModalLabel">Selamat Datang!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    Ini adalah aplikasi Chatbot Kampus Merdeka. Ini adalah batasan chatbot: ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.js"></script>
 
     <script>
+        // Fungsi untuk menampilkan pop-up
         function showPopup() {
+            console.log("showPopup function is running...");
+
             // Cek apakah cookie sudah ada
             if (document.cookie.indexOf("popupShown=true") == -1) {
-                // Jika cookie tidak ada, tampilkan modal
-                $('#welcomeModal').modal('show');
-    
+                // Jika cookie tidak ada, tampilkan pop-up
+                var popupMessage = "Selamat datang! Ini adalah aplikasi Chatbot Kampus Merdeka. Ini adalah batasan chatbot: ...";
+
+                // Tampilkan pop-up menggunakan sweetalert atau library serupa
+                swal("Welcome!", popupMessage, "info");
+
                 // Set cookie agar pop-up tidak ditampilkan lagi
                 document.cookie = "popupShown=true; expires=Fri, 31 Dec 9999 23:59:59 GMT";
             }
         }
-    
+
+        console.log("Script is loaded...");
+
         // Panggil fungsi showPopup saat halaman dimuat
-        window.onload = showPopup;
+        window.onload = function () {
+            console.log("Window onload event is triggered...");
+            showPopup();
+        };
     </script>
 
     <script>
