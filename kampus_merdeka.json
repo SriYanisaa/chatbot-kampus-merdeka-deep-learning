@@ -25,7 +25,8 @@
                 "Halo! Mau tau tentang kampus merdeka, kan?",
                 "Hello!  Lagi kepo tentang kampus merdeka ya?",
                 "Hii! Bot Kampus Merdeka disini, ada yang bisa dibantu?",
-                "Hai ! Mau tau tentang apa tentang kampus merdeka?"
+                "Hai ! Mau tau tentang apa tentang kampus merdeka?",
+                "Halo ! Mau tau program apa yang ada pada kampus merdeka?"
             ]
         },
         {
@@ -126,9 +127,10 @@
                 "Program Kampus Merdeka Kemendikbud",
                 "Program Kampus Merdeka Kemensos",
                 "Program Kampus Merdeka BUMN"
+
             ],
             "responses": [
-                "Yuk, pilih program di bawah ini:"
+                "Ada beberapa program Kampus Merdeka Kemendikbud, yaitu Studi Independen, Magang, Kampus Mengajar, IISMA, Pertukaran Mahasiswa Merdeka, dan Pejuang Muda. Sedangkan program Kampus Merdeka Kemensos, yaitu Pejuang Muda. Sedangkan program Kampus Merdeka BUMN, yaitu PMMB."
             ]
         },
         {
@@ -143,7 +145,8 @@
                 "PMMB"
             ],
             "responses": [
-                "Mau tau tentang apa nih?"
+                "Mau tau tentang apa nih?",
+                "Program mana yang kamu ingin ketahui?"
             ]
         },
         {
