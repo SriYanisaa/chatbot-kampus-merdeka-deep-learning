@@ -152,20 +152,14 @@
                 "PMMB"
             ],
             "responses": [
-                "Program mana yang kamu ingin ketahui?",
-                "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk mewujudkan gagasan mahasiswa dalam mengembangkan diri melalui aktivitas di luar perkuliahan dan menambah kompetensi spesifik serta praktis yang akan digunakan dalam dunia industri",
-                "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk memberikan kesempatan kepada mahasiswa mendapatkan pengalaman kerja di industri/dunia profesi nyata untuk mendapatkan hard skills maupun soft skills.",
-                "Salah satu program Kampus Merdeka Kemendikbud berbentuk kegiatan pembelajaran oleh mahasiswa yang memiliki minat dalam memperdalam ilmunya serta membantu meningkatkan pemerataan kualitas pendidikan. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil",
-                "IISMA adalah singkatan dari Indonesian International Student Mobility Awards. Salah satu program Kampus Merdeka Kemendikbud berupa skema beasiswa dari Pemerintah Indonesia untuk mendanai siswa dalam program mobilitas ke universitas terkemuka di luar negeri",
-                "Pertukaran Mahasiswa Merdeka merupakan pertukaran pelajar dengan program studi yang sama ke Perguruan Tinggi berbeda maupun pertukaran pelajar dengan program studi berbeda ke Perguruan Tinggi berbeda. Kegiatan pembelajaran dapat secara tatap muka atau daring. Program ini bertujuan untuk memperkaya pengalaman dan konteks keilmuan mahasiswa",
-                "Pejuang Muda adalah laboratorium sosial mahasiswa yang berkolaborasi dengan Kementerian Sosial untuk merancang digital campaign dan mengeksekusi program sosial yang relevan untuk membuat perubahan nyata di masyarakat ",
-                "PMMB adalah singkatan dari Program Magang Mahasiswa Bersertifikat. PMMB adalah program dari FHCI yang bekerja sama dengan BUMN yang memberi kesempatan kepada mahasiswa untuk menyalurkan potensi dan menggali pengalaman di BUMN"
+                "Terdapat beberapa program dari Kampus Merdeka yakni Studi Independen, Magang, Kampus Mengajar, IISMA, Pertukaran Mahasiswa Merdeka, Pejuang Muda, dan PMMB, Program mana yang kamu ingin ketahui?"
             ]
         },
         {
             "tag": "penjelasan_studi_independen",
             "patterns": [
-                "Apa itu studi independen?"
+                "Apa itu studi independen?",
+                "Studi Independen"
             ],
             "responses": [
                 "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk mewujudkan gagasan mahasiswa dalam mengembangkan diri melalui aktivitas di luar perkuliahan dan menambah kompetensi spesifik serta praktis yang akan digunakan dalam dunia industri"
@@ -227,7 +221,8 @@
         {
             "tag": "penjelasan_magang",
             "patterns": [
-                "Apa itu Magang Bersertifikat?"
+                "Apa itu Magang Bersertifikat?",
+                "Magang"
             ],
             "responses": [
                 "Salah satu program Kampus Merdeka Kemendikbud yang bertujuan untuk memberikan kesempatan kepada mahasiswa mendapatkan pengalaman kerja di industri/dunia profesi nyata untuk mendapatkan hard skills maupun soft skills."
@@ -272,7 +267,8 @@
         {
             "tag": "penjelasan_kampus_mengajar",
             "patterns": [
-                "Apa itu Kampus Mengajar?"
+                "Apa itu Kampus Mengajar?",
+                "Kampus Mengajar"
             ],
             "responses": [
                 "Salah satu program Kampus Merdeka Kemendikbud berbentuk kegiatan pembelajaran oleh mahasiswa yang memiliki minat dalam memperdalam ilmunya serta membantu meningkatkan pemerataan kualitas pendidikan. Sekolah tempat praktek mengajar dapat berada di lokasi kota maupun di daerah terpencil"
@@ -332,7 +328,8 @@
         {
             "tag": "penjelasan_IISMA",
             "patterns": [
-                "Apa itu IISMA?"
+                "Apa itu IISMA?",
+                "IISMA"
             ],
             "responses": [
                 "IISMA adalah singkatan dari Indonesian International Student Mobility Awards. Salah satu program Kampus Merdeka Kemendikbud berupa skema beasiswa dari Pemerintah Indonesia untuk mendanai siswa dalam program mobilitas ke universitas terkemuka di luar negeri"
@@ -377,7 +374,8 @@
         {
             "tag": "penjelasan_pertukaran_mahasiswa",
             "patterns": [
-                "Apa itu Pertukaran Mahasiswa Merdeka?"
+                "Apa itu Pertukaran Mahasiswa Merdeka?",
+                "Pertukaran Mahasiswa Merdeka"
             ],
             "responses": [
                 "Pertukaran Mahasiswa Merdeka merupakan pertukaran pelajar dengan program studi yang sama ke Perguruan Tinggi berbeda maupun pertukaran pelajar dengan program studi berbeda ke Perguruan Tinggi berbeda. Kegiatan pembelajaran dapat secara tatap muka atau daring. Program ini bertujuan untuk memperkaya pengalaman dan konteks keilmuan mahasiswa"
@@ -413,7 +411,8 @@
         {
             "tag": "penjelasan_pejuang_muda",
             "patterns": [
-                "Apa itu Pejuang Muda?"
+                "Apa itu Pejuang Muda?",
+                "Pejuang Muda"
             ],
             "responses": [
                 "Pejuang Muda adalah laboratorium sosial mahasiswa yang berkolaborasi dengan Kementerian Sosial untuk merancang digital campaign dan mengeksekusi program sosial yang relevan untuk membuat perubahan nyata di masyarakat "
@@ -449,7 +448,8 @@
         {
             "tag": "penjelasan_PMMB",
             "patterns": [
-                "Apa itu PMMB?"
+                "Apa itu PMMB?",
+                "PMMB"
             ],
             "responses": [
                 "PMMB adalah singkatan dari Program Magang Mahasiswa Bersertifikat. PMMB adalah program dari FHCI yang bekerja sama dengan BUMN yang memberi kesempatan kepada mahasiswa untuk menyalurkan potensi dan menggali pengalaman di BUMN"
