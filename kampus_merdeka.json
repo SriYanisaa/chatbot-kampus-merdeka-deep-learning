@@ -141,21 +141,6 @@
             ]
         },
         {
-            "tag": "program_kampus_merdeka",
-            "patterns": [
-                "Studi Independen",
-                "Magang",
-                "Kampus Mengajar",
-                "IISMA",
-                "Pertukaran Mahasiswa Merdeka",
-                "Pejuang Muda",
-                "PMMB"
-            ],
-            "responses": [
-                "Terdapat beberapa program dari Kampus Merdeka yakni Studi Independen, Magang, Kampus Mengajar, IISMA, Pertukaran Mahasiswa Merdeka, Pejuang Muda, dan PMMB, Program mana yang kamu ingin ketahui?"
-            ]
-        },
-        {
             "tag": "penjelasan_studi_independen",
             "patterns": [
                 "Apa itu studi independen?",
