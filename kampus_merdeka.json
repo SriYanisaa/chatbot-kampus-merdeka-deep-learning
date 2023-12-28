@@ -475,6 +475,25 @@
             "responses": [
                 "Mitra yang tergabung seperti Pertamina, Bank BRI, PT. KBN, dsb. Info lebih lanjut melalui website FHCI BUMN atau instagram @fhci.bumn"
             ]
+        },
+        {
+            "tag": "pertanyaan_umum",
+            "patterns": [
+                "Bagaiamana cara registrasi akun Kampus Merdeka Belajar Kampus Merdeka ?",
+                "Apa saja syarat verifikasi rekening bank dan bagaimana caranya ?",
+                "Bagaimana cara cek data saya di PDDIkti ?",
+                "Apakah saya boleh mendaftar lebih dari 1 program Kampus Merdeka dalam periode yang sama ?",
+                "Manakah yang harus saya ikuti kampus merdeka atau perkuliahan di kampus"
+            ],
+
+            "responses": [
+                "Kunjungi laman Kampus Merdeka di kampusmerdeka.kemdikbud.go.id. lalu klik tombol Masuk ke Akun yang berada di pojok kanan atas, klik tombol Daftar lalu pilih peran sebagai Mahasiswa lalu klik tombol Selanjutnya, Masukkan data-data yang diperlukan, Kemudian, beri centang pada kotak persetujuan Ketentuan Penggunaan dan Kebijakan Privasi, lalu klik Selanjutnya, Data yang Anda isi akan disesuaikan dengan Data PDDIKTI, sehingga Mahasiswa harus terdaftar ke sistem PDDIKTI untuk dapat membuat akun Kampus Merdeka, Perguruan Tinggi dan Program Studi merupakan Pilihan sehingga Mahasiswa harus klik dari pilihan yang ada untuk melanjutkan, Lakukan pengecekan apakah data sudah sesuai atau belum. Jika sudah, klik Selanjutnya. Jika belum, Mahasiswa bisa memeriksa data di laman PDDIKTI atau bisa melaporkan ke administrasi perguruan tinggi, Jika data-data sudah benar. Email aktivasi akan dikirim ke alamat email yang telah didaftarkan Mahasiswa pada langkah sebelumnya, Buka pesan dari noreply-kampusmerdeka, lalu klik tautan yang ada di email untuk melakukan aktivasi akun, Setelah melakukan aktivasi, Akun sudah aktif dan dapat masuk ke Platform Kampus Merdeka, Mahasiswa sudah masuk dan dapat melakukan eksplorasi di laman Kampus Merdeka lebih lanjut",
+                "Untuk syarat verifikasi rekening bank perlu melengkapi Detail rekening bank pada akun profil kampus merdeka seperti nama bank dan nomor rekening bank  ",
+                "Anda dapat mengecek data Anda di situs PDDikti https://pddikti.kemdikbud.go.id/ ",
+                "Kampus Merdeka adalah kebijakan yang dikeluarkan oleh Kemendikbudristek dengan memberikan hak kepada Mahasiswa untuk mengambil mata kuliah di luar program studi selama 1 semester dan berkegiatan di luar perguruan tinggi selama 2 semester. Perguruan tinggi diberikan kebebasan untuk menyediakan kegiatan Kampus Merdeka yang sesuai dengan kebutuhan dan minat mahasiswanya. kegiatan yang tersedia di program Kampus Merdeka, yaitu: Magang Bersertifikat, Studi Independen, Kampus Mengajar, Indonesian International Student Mobility Awards (IISMA), Pertukaran Mahasiswa Merdeka, Membangun Desa (KKN Tematik), Proyek Kemanusiaan,  Riset atau Penelitian, Wirausaha",
+                "Pilihan antara Kampus Merdeka ataupun perkuliahan di Kampus tergantung kebutuhan dan keinginan kalian. Apabila kalian memilih untuk mengikuti Kampus Merdeka kalian akan mendapat konversi 20 sks dan topik yang diberikan akan menjurus mempelajari satu bidang pada satu semester, sedangkan apabila kalian memilih perkuliahan kalian bisa mengambil lebih daripada 20 sks dan bidang yang bisa kalian pelajari beragam pada satu semester."
+            ]
         }
+
     ]
 }
